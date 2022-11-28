@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.app-header{
+    grid-column: 1 / -1;
+    grid-row: span 1;
+    background-color: #106164;
+}
+
+.app-navigation{
+    grid-column: 1 / 4;
+    grid-row: span 10;
+    background-color: #e9a76e;
+}
+
+.app-body{
+    grid-column: 4 / -1;
+    grid-row: span 10;
+    background-color: #ece2e1;
+}
+
+.app-footer{
+    grid-column: 1 / -1;
+    grid-row: span 1;
+    background-color: #2d342f;
+}

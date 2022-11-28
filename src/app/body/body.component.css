@@ -1,0 +1,11 @@
+.grid{
+ display: grid;
+ width: 50%;
+ margin-left: 25%;
+ margin-top: 2%;
+ grid-template-columns: repeat(6,1fr);   
+}
+
+button{
+min-width: 50px;
+}

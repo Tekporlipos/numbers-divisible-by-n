@@ -1,0 +1,16 @@
+<div class="d-grid gap-2 p-4 ">
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 2?'btn-danger':''" [style]="{border:'red'}" (click)="change(2)" type="button">Numbers divisible by 2</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 3?'btn-danger':''" (click)="change(3)" type="button">Numbers divisible by 3</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 4?'btn-danger':''" (click)="change(4)" type="button">Numbers divisible by 4</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 5?'btn-danger':''" (click)="change(5)" type="button">Numbers divisible by 5</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 6?'btn-danger':''" (click)="change(6)" type="button">Numbers divisible by 6</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 7?'btn-danger':''" (click)="change(7)" type="button">Numbers divisible by 7</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 8?'btn-danger':''" (click)="change(8)" type="button">Numbers divisible by 8</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 9?'btn-danger':''" (click)="change(9)" type="button">Numbers divisible by 9</button>
+    <button class="btn btn-primary" [ngClass]="check(isDisable) === 10?'btn-danger':''" (click)="change(10)" type="button">Numbers divisible by 10</button>
+  </div>
+
+  <div class="d-grid gap-2 p-4 ">
+    <button class="btn btn-danger m-6" (click)="change(true)" [disabled]="isDisable === true" type="button">Clear</button>
+  </div>
+   

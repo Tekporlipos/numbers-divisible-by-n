@@ -1,0 +1,7 @@
+<div class="grid">
+    <div *ngFor="let a of numbers; let e  = index">
+        <button class="btn  m-1" [style]="{backgroundColor: isDisable !== true? check(e+1)?'red':'white':'white'}">{{e+1}}</button>
+    </div>
+    
+</div>
+ 

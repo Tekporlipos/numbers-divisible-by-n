@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    height: calc(100%);
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: capitalize;
+}

@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+*{
+    margin: 0px;
+    padding: 0px;
+}
